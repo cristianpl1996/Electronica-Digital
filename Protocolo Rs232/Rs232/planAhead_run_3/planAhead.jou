@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun May 13 13:03:56 2018
+# Process ID: 4708
+# Log file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin P9 [get_ports TX_PRINCIPAL]
+endgroup
+startgroup
+set_property package_pin U6 [get_ports RX_PRINCIPAL]
+endgroup
+save_constraints

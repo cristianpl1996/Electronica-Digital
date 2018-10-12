@@ -1,0 +1,1 @@
+vhdtdtfi -prj Lcd_16x2_4Bits -o C:/Users/Cristian/Documents/ISE/Lcd_16x2_4Bits/PROCESADOR_LCD4BITS_REVB.vhi -module PROCESADOR_LCD4BITS_REVB -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PROCESADOR_LCD4BITS_REVB.vhd 

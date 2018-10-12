@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon May 14 18:03:27 2018
+# Process ID: 704
+# Log file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/pa.fromNetlist.tcl}

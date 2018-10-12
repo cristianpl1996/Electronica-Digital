@@ -1,0 +1,19 @@
+
+
+NET "CLK" LOC = B8;
+
+# PlanAhead Generated physical constraints 
+
+NET "DATA_LCD[7]" LOC = L15;
+NET "DATA_LCD[6]" LOC = K12;
+NET "DATA_LCD[5]" LOC = L17;
+NET "DATA_LCD[4]" LOC = M15;
+NET "DATA_LCD[3]" LOC = K13;
+NET "DATA_LCD[2]" LOC = L16;
+NET "DATA_LCD[1]" LOC = M13;
+NET "DATA_LCD[0]" LOC = R18;
+NET "ENA" LOC = R15;
+NET "RS" LOC = T17;
+NET "RW" LOC = P17;
+NET "CORI" LOC = D18;
+NET "CORD" LOC = B18;

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/Latch_SR_AA_EN_AA_TB_isim_beh.exe" -prj "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/Latch_SR_AA_EN_AA_TB_beh.prj" "work.Latch_SR_AA_EN_AA_TB" 

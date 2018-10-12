@@ -1,0 +1,1 @@
+vhdtdtfi -prj Lcd_16x2 -o C:/Users/Cristian/Documents/ISE/Lcd_16x2/CARACTERES_ESPECIALES_REVC.vhi -module CARACTERES_ESPECIALES_REVC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CARACTERES_ESPECIALES_REVC.vhd 

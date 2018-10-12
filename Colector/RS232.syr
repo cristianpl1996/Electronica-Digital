@@ -1,0 +1,490 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: RS232.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RS232.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RS232"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : RS232
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd" in Library work.
+Entity <RS232> compiled.
+Entity <RS232> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <RS232> in library <work> (architecture <Behavioral>) with generics.
+	BAUD_RS232 = 9600
+	FPGA_CLK = 50000000
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <RS232> in library <work> (Architecture <Behavioral>).
+	BAUD_RS232 = 9600
+	FPGA_CLK = 50000000
+Entity <RS232> analyzed. Unit <RS232> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <RS232>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd".
+WARNING:Xst:646 - Signal <rx_vector2<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dout_paralelo<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dout_paralelo<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <tx_maquina>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <paralelo_paso>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 11                                             |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <TX_FIN>.
+    Found 1-bit register for signal <TX>.
+    Found 1-bit register for signal <RX_IN>.
+    Found 8-bit register for signal <DOUT>.
+    Found 12-bit up counter for signal <clk_baud>.
+    Found 12-bit comparator greatequal for signal <clk_baud$cmp_ge0000> created at line 190.
+    Found 1-bit register for signal <clk_flanco>.
+    Found 12-bit comparator less for signal <clk_flanco$cmp_lt0000> created at line 190.
+    Found 1-bit register for signal <clk_ini>.
+    Found 13-bit up counter for signal <clk_tx_baud>.
+    Found 13-bit comparator greatequal for signal <clk_tx_baud$cmp_ge0000> created at line 281.
+    Found 1-bit register for signal <clk_tx_flanco>.
+    Found 13-bit comparator less for signal <clk_tx_flanco$cmp_lt0000> created at line 281.
+    Found 1-bit register for signal <clk_tx_ini>.
+    Found 8-bit register for signal <dout_paralelo<8:1>>.
+    Found 4-bit up counter for signal <n>.
+    Found 4-bit comparator less for signal <paralelo_paso$cmp_lt0000> created at line 152.
+    Found 5-bit register for signal <rx_vector2>.
+    Found 8-bit register for signal <tx_data>.
+    Found 8-bit register for signal <tx_data2>.
+    Found 4-bit comparator greatequal for signal <tx_data2$cmp_ge0000> created at line 246.
+    Found 4-bit comparator less for signal <tx_maquina$cmp_lt0000> created at line 246.
+    Found 4-bit register for signal <tx_n>.
+    Found 4-bit adder for signal <tx_n$addsub0000> created at line 247.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <RS232> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 3
+ 12-bit up counter                                     : 1
+ 13-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 20
+ 1-bit register                                        : 15
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 7
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 1
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 1
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <paralelo_paso/FSM> on signal <paralelo_paso[1:7]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 0000001
+ 001   | 0000010
+ 010   | 0000100
+ 011   | 0100000
+ 100   | 0010000
+ 101   | 0001000
+ 110   | 1000000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <tx_maquina/FSM> on signal <tx_maquina[1:6]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000001
+ 001   | 000010
+ 010   | 000100
+ 011   | 001000
+ 100   | 010000
+ 101   | 100000
+-------------------
+WARNING:Xst:1710 - FF/Latch <tx_data2_7> (without init value) has a constant value of 1 in block <RS232>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <rx_vector2_4> of sequential type is unconnected in block <RS232>.
+WARNING:Xst:2677 - Node <rx_vector2_4> of sequential type is unconnected in block <RS232>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 3
+ 12-bit up counter                                     : 1
+ 13-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+# Comparators                                          : 7
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator less                                : 1
+ 13-bit comparator greatequal                          : 1
+ 13-bit comparator less                                : 1
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator less                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <tx_data2_7> (without init value) has a constant value of 1 in block <RS232>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <RS232> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RS232, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 88
+ Flip-Flops                                            : 88
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RS232.ngr
+Top Level Output File Name         : RS232
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 182
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 31
+#      LUT2                        : 20
+#      LUT2_L                      : 2
+#      LUT3                        : 18
+#      LUT3_D                      : 3
+#      LUT4                        : 25
+#      LUT4_D                      : 3
+#      LUT4_L                      : 2
+#      MUXCY                       : 41
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 88
+#      FD                          : 16
+#      FDE                         : 24
+#      FDR                         : 28
+#      FDRE                        : 4
+#      FDRS                        : 1
+#      FDS                         : 12
+#      FDSE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 10
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       73  out of   4656     1%  
+ Number of Slice Flip Flops:             88  out of   9312     0%  
+ Number of 4 input LUTs:                112  out of   9312     1%  
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 88    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.377ns (Maximum Frequency: 156.814MHz)
+   Minimum input arrival time before clock: 5.557ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.377ns (frequency: 156.814MHz)
+  Total number of paths / destination ports: 933 / 153
+-------------------------------------------------------------------------
+Delay:               6.377ns (Levels of Logic = 11)
+  Source:            clk_tx_baud_0 (FF)
+  Destination:       clk_tx_baud_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: clk_tx_baud_0 to clk_tx_baud_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  clk_tx_baud_0 (clk_tx_baud_0)
+     LUT3:I0->O            1   0.704   0.000  Mcompar_clk_tx_baud_cmp_ge0000_lut<0> (Mcompar_clk_tx_baud_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<0> (Mcompar_clk_tx_baud_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<1> (Mcompar_clk_tx_baud_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<2> (Mcompar_clk_tx_baud_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<3> (Mcompar_clk_tx_baud_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<4> (Mcompar_clk_tx_baud_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<5> (Mcompar_clk_tx_baud_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<6> (Mcompar_clk_tx_baud_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_clk_tx_baud_cmp_ge0000_cy<7> (Mcompar_clk_tx_baud_cmp_ge0000_cy<7>)
+     MUXCY:CI->O           2   0.459   0.526  Mcompar_clk_tx_baud_cmp_ge0000_cy<8> (clk_tx_baud_cmp_ge0000)
+     LUT2:I1->O           13   0.704   0.983  clk_tx_baud_or00001 (clk_tx_baud_or0000)
+     FDR:R                     0.911          clk_tx_baud_0
+    ----------------------------------------
+    Total                      6.377ns (4.246ns logic, 2.131ns route)
+                                       (66.6% logic, 33.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 29 / 21
+-------------------------------------------------------------------------
+Offset:              5.557ns (Levels of Logic = 3)
+  Source:            TX_INI (PAD)
+  Destination:       tx_data_0 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: TX_INI to tx_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.218   0.808  TX_INI_IBUF (TX_INI_IBUF)
+     LUT2:I0->O            8   0.704   0.792  tx_data_mux0001<7>11 (tx_maquina_FSM_FFd5-In)
+     LUT4:I2->O            1   0.704   0.420  tx_data_mux0001<6>_SW0 (N31)
+     FDS:S                     0.911          tx_data_6
+    ----------------------------------------
+    Total                      5.557ns (3.537ns logic, 2.020ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            TX (FF)
+  Destination:       TX (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: TX to TX
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              3   0.591   0.531  TX (TX_OBUF)
+     OBUF:I->O                 3.272          TX_OBUF (TX)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.88 secs
+ 
+--> 
+
+Total memory usage is 261360 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon May 14 18:13:44 2018
+# Process ID: 2652
+# Log file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/pa.fromNetlist.tcl}
+# create_project -name Rs232 -dir "C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/planAhead_run_5" -part xc3s500efg320-4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'current_run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232\planAhead_pid2652.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 14 18:14:01 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

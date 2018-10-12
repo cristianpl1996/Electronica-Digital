@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Jun 03 13:44:41 2018
+# Process ID: 4404
+# Log file: C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  {VIN[5]}]]
+set_property package_pin "" [get_ports [list  {VIN[4]}]]
+set_property package_pin "" [get_ports [list  {VIN[3]}]]
+set_property package_pin "" [get_ports [list  {VIN[2]}]]
+set_property package_pin "" [get_ports [list  {VIN[1]}]]
+set_property package_pin "" [get_ports [list  {VIN[0]}]]
+save_constraints
+startgroup
+set_property package_pin J13 [get_ports RX]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports TX]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {VIN[0]}]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports {VIN[1]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {VIN[2]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {VIN[3]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {VIN[3]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {VIN[4]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {VIN[5]}]
+endgroup
+save_constraints

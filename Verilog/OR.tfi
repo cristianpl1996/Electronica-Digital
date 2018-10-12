@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+OR instance_name (
+    .A(A), 
+    .B(B), 
+    .C(C)
+    );
+
+

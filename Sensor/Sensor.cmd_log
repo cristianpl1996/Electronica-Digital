@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Sensor/Sensor.xst" -ofn "C:/Users/Cristian/Documents/ISE/Sensor/Sensor.syr" 
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Sensor/Sensor.xst" -ofn "C:/Users/Cristian/Documents/ISE/Sensor/Sensor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sensor.ucf -p xc3s500e-fg320-4 Sensor.ngc Sensor.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Sensor_map.ncd Sensor.ngd Sensor.pcf 
+par -w -intstyle ise -ol high -t 1 Sensor_map.ncd Sensor.ncd Sensor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Sensor.twx Sensor.ncd -o Sensor.twr Sensor.pcf -ucf Sensor.ucf 
+bitgen -intstyle ise -f Sensor.ut Sensor.ncd 

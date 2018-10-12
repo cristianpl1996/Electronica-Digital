@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LatchSR_ActivoBajo.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AA.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="LatchSR_AA.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="LatchSR_AA.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AA_EN_AA.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="LatchSR_AA_EN_AA.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="LatchSR_AA_EN_AA.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LatchSR_AA_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AA_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LatchSR_AB.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LatchSR_AB.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LatchSR_AB.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LatchSR_AB.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AB.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LatchSR_AB.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LatchSR_AB.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LatchSR_AB.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LatchSR_AB_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AB_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LatchSR_AB_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LatchSR_AB_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LatchSR_AB_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Latch_SR_AA_EN_AA_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Latch_SR_AA_EN_AA_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Latch_SR_AA_EN_AA_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Latch_SR_AA_EN_AA_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1519876772" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1519876772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879903" xil_pn:in_ck="-5098494830277294957" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1519879903">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LatchSR_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AA_EN_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AA_TB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_EN_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_EN_AA_TB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_TB.vhd"/>
+      <outfile xil_pn:name="Latch_SR_AA_EN_AA_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879222" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5939525074369961937" xil_pn:start_ts="1519879222">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879222" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3094357338852486159" xil_pn:start_ts="1519879222">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879758" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6281486847430183599" xil_pn:start_ts="1519879758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879906" xil_pn:in_ck="-5098494830277294957" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1519879906">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LatchSR_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AA_EN_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AA_TB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_EN_AA.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_EN_AA_TB.vhd"/>
+      <outfile xil_pn:name="LatchSR_AB_TB.vhd"/>
+      <outfile xil_pn:name="Latch_SR_AA_EN_AA_TB.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879910" xil_pn:in_ck="-5098494830277294957" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8352062704246576992" xil_pn:start_ts="1519879906">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Latch_SR_AA_EN_AA_TB_beh.prj"/>
+      <outfile xil_pn:name="Latch_SR_AA_EN_AA_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1519879911" xil_pn:in_ck="-598055530948782443" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3591913222021918771" xil_pn:start_ts="1519879910">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Latch_SR_AA_EN_AA_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1519876665" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1519876665">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

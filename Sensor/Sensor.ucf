@@ -1,0 +1,5 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Vout" LOC = J14;
+NET "Vin" LOC = L15;

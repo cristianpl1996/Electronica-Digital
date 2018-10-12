@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue May 08 20:58:36 2018
+# Process ID: 4936
+# Log file: C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/pa.fromNetlist.tcl}
+# create_project -name Rs232 -dir "C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/planAhead_run_2" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 380.707 ; gain = 60.855
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/LIB_LCD4BITS_INTESC_REVB.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "LIB_LCD4BITS_INTESC_REVB.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf' to fileset 'constrs_1'
+# add_files [list {LIB_LCD4BITS_INTESC_REVB.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LIB_LCD4BITS_INTESC_REVB.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   LIB_LCD4BITS_INTESC_REVB.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   Inst_COLECTO/Madd_ESPACIOS_S_addsub0005_lut<2 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_FUTURO<17 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_FUTURO_mux0008<19 : 4> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<18 : 2> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_ENA_cmp_le0000_lut<12 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_ENA_cmp_lt0000_lut<9 : 1> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Msub_DATA_CHAR_addsub0000_lut<6 : 1> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/VEC_C_CHAR_mux0000<36 : 2> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_RS232/Mcompar_clk_flanco_cmp_lt0000_lut<7 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_RS232/Mcompar_clk_tx_baud_cmp_ge0000_lut<7 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Mcompar_RESIDUO_S_4_cmp_ge0001_lut<3 :
+   1> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mcompar_RESIDUO_S_4_cmp_ge0002_lut<9 :
+   1> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mcompar_RESIDUO_S_4_cmp_ge0003_lut<9 :
+   1> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mcompar_RESIDUO_S_4_cmp_ge0004_lut<9 :
+   1> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_RESIDUO_S_31_sub0004_Madd_lut<4 :
+   2> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_RESIDUO_S_31_sub0005_Madd_lut<30 :
+   2> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_RESIDUO_S_31_sub0006_Madd_lut<30 :
+   2> on block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_RESIDUO_S_31_sub0007_lut<31 : 2> on
+   block LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file LIB_LCD4BITS_INTESC_REVB.edif ...
+ngc2edif: Total memory usage is 82316 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/Rs232.data/cache/LIB_LCD4BITS_INTESC_REVB_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/Rs232.data/cache/LIB_LCD4BITS_INTESC_REVB_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'LIB_LCD4BITS_INTESC_REVB' is not ideal for floorplanning, since the cellview 'LIB_LCD4BITS_INTESC_REVB' defined in file 'LIB_LCD4BITS_INTESC_REVB.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf]
+Finished Parsing UCF File [C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: f6d5b269
+link_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 509.160 ; gain = 128.453
+startgroup
+set_property package_pin M13 [get_ports TX]
+endgroup
+set_property package_pin "" [get_ports [list  RX]]
+set_property package_pin "" [get_ports [list  TX]]
+startgroup
+set_property package_pin M13 [get_ports RX]
+endgroup
+startgroup
+set_property package_pin G15 [get_ports TX]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232\planAhead_pid4936.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue May 08 21:11:50 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

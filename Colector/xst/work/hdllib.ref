@@ -1,0 +1,14 @@
+AR caracteres_especiales_revc behavioral C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl09 1523729008
+EN procesador_lcd_revc NULL C:/Users/Cristian/Documents/ISE/Colector/PROCESADOR_LCD_REVC.vhd sub00/vhpl06 1523729005
+AR rs232 behavioral C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd sub00/vhpl13 1524415713
+EN lib_lcd_intesc_revc NULL C:/Users/Cristian/Documents/ISE/Colector/LIB_LCD_INTESC_REVC.vhd sub00/vhpl10 1523729009
+AR lib_lcd_intesc_revc behavioral C:/Users/Cristian/Documents/ISE/Colector/LIB_LCD_INTESC_REVC.vhd sub00/vhpl11 1523729010
+PH comandos_lcd_revc NULL C:/Users/Cristian/Documents/ISE/Colector/COMANDOS_LCD_REVC.vhd sub00/vhpl00 1523728999
+EN caracteres_especiales_revc NULL C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl08 1523729007
+EN rs232 NULL C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd sub00/vhpl12 1524415712
+EN sensor NULL C:/Users/Cristian/Documents/ISE/Colector/SENSOR.vhd sub00/vhpl02 1523729001
+EN colecto NULL C:/Users/Cristian/Documents/ISE/Colector/COLECTO.vhd sub00/vhpl04 1525010497
+AR colecto behavioral C:/Users/Cristian/Documents/ISE/Colector/COLECTO.vhd sub00/vhpl05 1525010498
+AR procesador_lcd_revc behavioral C:/Users/Cristian/Documents/ISE/Colector/PROCESADOR_LCD_REVC.vhd sub00/vhpl07 1523729006
+PB comandos_lcd_revc comandos_lcd_revc C:/Users/Cristian/Documents/ISE/Colector/COMANDOS_LCD_REVC.vhd sub00/vhpl01 1523729000
+AR sensor behavioral C:/Users/Cristian/Documents/ISE/Colector/SENSOR.vhd sub00/vhpl03 1523729002

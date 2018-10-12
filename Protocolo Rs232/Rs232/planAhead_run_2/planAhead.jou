@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue May 08 20:58:36 2018
+# Process ID: 4936
+# Log file: C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Cristian/Downloads/Modulo 4 Protocolo/Rs232/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin M13 [get_ports TX]
+endgroup
+set_property package_pin "" [get_ports [list  RX]]
+set_property package_pin "" [get_ports [list  TX]]
+startgroup
+set_property package_pin M13 [get_ports RX]
+endgroup
+startgroup
+set_property package_pin G15 [get_ports TX]
+endgroup
+save_constraints

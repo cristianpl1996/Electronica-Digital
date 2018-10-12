@@ -1,0 +1,2 @@
+vhdl work "Sensor.vhd"
+vhdl work "Sensor_TB.vhd"

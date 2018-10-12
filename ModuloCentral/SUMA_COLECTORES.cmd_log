@@ -1,0 +1,1 @@
+vhdtdtfi -prj Modulo_Central -o C:/Users/Cristian/Documents/ISE/ModuloCentral/SUMA_COLECTORES.vhi -module SUMA_COLECTORES -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SUMA_COLECTORES.vhd 

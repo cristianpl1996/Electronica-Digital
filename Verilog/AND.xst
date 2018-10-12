@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Documents/ISE/Verilog/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Documents/ISE/Verilog/xst"
+elaborate
+-ifn AND.prj
+-ifmt mixed

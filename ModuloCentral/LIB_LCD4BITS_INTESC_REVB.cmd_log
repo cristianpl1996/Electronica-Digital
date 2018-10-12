@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.xst" -ofn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.syr" 
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.xst" -ofn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.syr" 
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.xst" -ofn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ngd LIB_LCD4BITS_INTESC_REVB.pcf 
+par -w -intstyle ise -ol high -t 1 LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ncd LIB_LCD4BITS_INTESC_REVB.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LIB_LCD4BITS_INTESC_REVB.twx LIB_LCD4BITS_INTESC_REVB.ncd -o LIB_LCD4BITS_INTESC_REVB.twr LIB_LCD4BITS_INTESC_REVB.pcf -ucf LIB_LCD4BITS_INTESC_REVB.ucf 
+bitgen -intstyle ise -f LIB_LCD4BITS_INTESC_REVB.ut LIB_LCD4BITS_INTESC_REVB.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ngd LIB_LCD4BITS_INTESC_REVB.pcf 
+par -w -intstyle ise -ol high -t 1 LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ncd LIB_LCD4BITS_INTESC_REVB.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LIB_LCD4BITS_INTESC_REVB.twx LIB_LCD4BITS_INTESC_REVB.ncd -o LIB_LCD4BITS_INTESC_REVB.twr LIB_LCD4BITS_INTESC_REVB.pcf -ucf LIB_LCD4BITS_INTESC_REVB.ucf 
+bitgen -intstyle ise -f LIB_LCD4BITS_INTESC_REVB.ut LIB_LCD4BITS_INTESC_REVB.ncd 
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.xst" -ofn "C:/Users/Cristian/Documents/ISE/Modulo_Central/LIB_LCD4BITS_INTESC_REVB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ngd LIB_LCD4BITS_INTESC_REVB.pcf 
+par -w -intstyle ise -ol high -t 1 LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ncd LIB_LCD4BITS_INTESC_REVB.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LIB_LCD4BITS_INTESC_REVB.twx LIB_LCD4BITS_INTESC_REVB.ncd -o LIB_LCD4BITS_INTESC_REVB.twr LIB_LCD4BITS_INTESC_REVB.pcf -ucf LIB_LCD4BITS_INTESC_REVB.ucf 
+bitgen -intstyle ise -f LIB_LCD4BITS_INTESC_REVB.ut LIB_LCD4BITS_INTESC_REVB.ncd 
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.xst" -ofn "C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LIB_LCD4BITS_INTESC_REVB.ucf -p xc3s500e-fg320-4 LIB_LCD4BITS_INTESC_REVB.ngc LIB_LCD4BITS_INTESC_REVB.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ngd LIB_LCD4BITS_INTESC_REVB.pcf 
+par -w -intstyle ise -ol high -t 1 LIB_LCD4BITS_INTESC_REVB_map.ncd LIB_LCD4BITS_INTESC_REVB.ncd LIB_LCD4BITS_INTESC_REVB.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LIB_LCD4BITS_INTESC_REVB.twx LIB_LCD4BITS_INTESC_REVB.ncd -o LIB_LCD4BITS_INTESC_REVB.twr LIB_LCD4BITS_INTESC_REVB.pcf -ucf LIB_LCD4BITS_INTESC_REVB.ucf 
+bitgen -intstyle ise -f LIB_LCD4BITS_INTESC_REVB.ut LIB_LCD4BITS_INTESC_REVB.ncd 

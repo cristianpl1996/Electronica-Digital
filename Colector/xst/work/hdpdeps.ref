@@ -1,0 +1,51 @@
+V3 25
+FL C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhd 2018/03/10.09:44:26 P.20131013
+EN work/CARACTERES_ESPECIALES_REVC 1523729007 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CARACTERES_ESPECIALES_REVC/Behavioral 1523729008 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhd \
+      EN work/CARACTERES_ESPECIALES_REVC 1523729007
+FL C:/Users/Cristian/Documents/ISE/Colector/COLECTO.vhd 2018/04/29.09:01:23 P.20131013
+EN work/COLECTO 1525010497 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/COLECTO.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177
+AR work/COLECTO/Behavioral 1525010498 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/COLECTO.vhd EN work/COLECTO 1525010497
+FL C:/Users/Cristian/Documents/ISE/Colector/COMANDOS_LCD_REVC.vhd 2018/03/10.09:44:29 P.20131013
+PH work/COMANDOS_LCD_REVC 1523728999 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/COMANDOS_LCD_REVC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+PB work/COMANDOS_LCD_REVC 1523729000 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/COMANDOS_LCD_REVC.vhd \
+      PH work/COMANDOS_LCD_REVC 1523728999
+FL C:/Users/Cristian/Documents/ISE/Colector/LIB_LCD_INTESC_REVC.vhd 2018/04/14.09:57:27 P.20131013
+EN work/LIB_LCD_INTESC_REVC 1523729009 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/LIB_LCD_INTESC_REVC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177 \
+      PB work/COMANDOS_LCD_REVC 1523729000
+AR work/LIB_LCD_INTESC_REVC/Behavioral 1523729010 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/LIB_LCD_INTESC_REVC.vhd \
+      EN work/LIB_LCD_INTESC_REVC 1523729009 CP SENSOR CP COLECTO \
+      CP PROCESADOR_LCD_REVC CP CARACTERES_ESPECIALES_REVC
+FL C:/Users/Cristian/Documents/ISE/Colector/PROCESADOR_LCD_REVC.vhd 2018/03/10.09:44:35 P.20131013
+EN work/PROCESADOR_LCD_REVC 1523729005 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/PROCESADOR_LCD_REVC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PROCESADOR_LCD_REVC/Behavioral 1523729006 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/PROCESADOR_LCD_REVC.vhd \
+      EN work/PROCESADOR_LCD_REVC 1523729005
+FL C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd 2014/09/16.11:29:22 P.20131013
+EN work/RS232 1524415712 FL C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RS232/Behavioral 1524415713 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/RS232.vhd EN work/RS232 1524415712
+FL C:/Users/Cristian/Documents/ISE/Colector/SENSOR.vhd 2018/03/14.09:42:47 P.20131013
+EN work/SENSOR 1523729001 FL C:/Users/Cristian/Documents/ISE/Colector/SENSOR.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SENSOR/Behavioral 1523729002 \
+      FL C:/Users/Cristian/Documents/ISE/Colector/SENSOR.vhd EN work/SENSOR 1523729001

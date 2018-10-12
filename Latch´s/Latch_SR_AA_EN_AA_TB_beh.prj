@@ -1,0 +1,2 @@
+vhdl work "LatchSR_AA_EN_AA.vhd"
+vhdl work "Latch_SR_AA_EN_AA_TB.vhd"

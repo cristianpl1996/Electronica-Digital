@@ -1,0 +1,925 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: LIB_LCD4BITS_INTESC_REVB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LIB_LCD4BITS_INTESC_REVB.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LIB_LCD4BITS_INTESC_REVB"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : LIB_LCD4BITS_INTESC_REVB
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/COMANDOS_LCD4BITS_REVB.vhd" in Library work.
+Architecture comandos_lcd4bits_revb of Entity comandos_lcd4bits_revb is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/OP_DIVISION.vhd" in Library work.
+Architecture op_division of Entity op_division is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/RS232.vhd" in Library work.
+Architecture behavioral of Entity rs232 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/COLECTO.vhd" in Library work.
+Architecture behavioral of Entity colecto is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/PROCESADOR_LCD4BITS_REVB.vhd" in Library work.
+Architecture behavioral of Entity procesador_lcd4bits_revb is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd" in Library work.
+Architecture behavioral of Entity caracteres_especiales_lcd4bits_revb is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/SUMA_COLECTORES.vhd" in Library work.
+Architecture behavioral of Entity suma_colectores is up to date.
+Compiling vhdl file "C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.vhd" in Library work.
+Architecture behavioral of Entity lib_lcd4bits_intesc_revb is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LIB_LCD4BITS_INTESC_REVB> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RS232> in library <work> (architecture <behavioral>) with generics.
+	BAUD_RS232 = 9600
+	FPGA_CLK = 50000000
+
+Analyzing hierarchy for entity <COLECTO> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PROCESADOR_LCD4BITS_REVB> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CARACTERES_ESPECIALES_LCD4BITS_REVB> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SUMA_COLECTORES> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LIB_LCD4BITS_INTESC_REVB> in library <work> (Architecture <behavioral>).
+INFO:Xst:1433 - Contents of array <INSTRUCCION> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <LIB_LCD4BITS_INTESC_REVB> analyzed. Unit <LIB_LCD4BITS_INTESC_REVB> generated.
+
+Analyzing generic Entity <RS232> in library <work> (Architecture <behavioral>).
+	BAUD_RS232 = 9600
+	FPGA_CLK = 50000000
+Entity <RS232> analyzed. Unit <RS232> generated.
+
+Analyzing Entity <COLECTO> in library <work> (Architecture <behavioral>).
+Entity <COLECTO> analyzed. Unit <COLECTO> generated.
+
+Analyzing Entity <PROCESADOR_LCD4BITS_REVB> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <RW> in unit <PROCESADOR_LCD4BITS_REVB> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <PROCESADOR_LCD4BITS_REVB> analyzed. Unit <PROCESADOR_LCD4BITS_REVB> generated.
+
+Analyzing Entity <CARACTERES_ESPECIALES_LCD4BITS_REVB> in library <work> (Architecture <behavioral>).
+Entity <CARACTERES_ESPECIALES_LCD4BITS_REVB> analyzed. Unit <CARACTERES_ESPECIALES_LCD4BITS_REVB> generated.
+
+Analyzing Entity <SUMA_COLECTORES> in library <work> (Architecture <behavioral>).
+Entity <SUMA_COLECTORES> analyzed. Unit <SUMA_COLECTORES> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <RS232>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/RS232.vhd".
+WARNING:Xst:646 - Signal <rx_vector2<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dout_paralelo<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dout_paralelo<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <tx_maquina>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <paralelo_paso>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 11                                             |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <RX_IN>.
+    Found 1-bit register for signal <TX>.
+    Found 8-bit register for signal <DOUT>.
+    Found 1-bit register for signal <TX_FIN>.
+    Found 12-bit up counter for signal <clk_baud>.
+    Found 12-bit comparator greatequal for signal <clk_baud$cmp_ge0000> created at line 190.
+    Found 1-bit register for signal <clk_flanco>.
+    Found 12-bit comparator less for signal <clk_flanco$cmp_lt0000> created at line 190.
+    Found 1-bit register for signal <clk_ini>.
+    Found 13-bit up counter for signal <clk_tx_baud>.
+    Found 13-bit comparator greatequal for signal <clk_tx_baud$cmp_ge0000> created at line 281.
+    Found 1-bit register for signal <clk_tx_flanco>.
+    Found 13-bit comparator less for signal <clk_tx_flanco$cmp_lt0000> created at line 281.
+    Found 1-bit register for signal <clk_tx_ini>.
+    Found 8-bit register for signal <dout_paralelo<8:1>>.
+    Found 4-bit up counter for signal <n>.
+    Found 4-bit comparator less for signal <paralelo_paso$cmp_lt0000> created at line 152.
+    Found 5-bit register for signal <rx_vector2>.
+    Found 8-bit register for signal <tx_data>.
+    Found 8-bit register for signal <tx_data2>.
+    Found 4-bit comparator greatequal for signal <tx_data2$cmp_ge0000> created at line 246.
+    Found 4-bit comparator less for signal <tx_maquina$cmp_lt0000> created at line 246.
+    Found 4-bit register for signal <tx_n>.
+    Found 4-bit adder for signal <tx_n$addsub0000> created at line 247.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred   3 Counter(s).
+	inferred  48 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <RS232> synthesized.
+
+
+Synthesizing Unit <COLECTO>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/COLECTO.vhd".
+WARNING:Xst:646 - Signal <ESPACIOS_S<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 2-bit adder for signal <ESPACIOS_S$addsub0001> created at line 53.
+    Found 3-bit adder for signal <ESPACIOS_S$addsub0003> created at line 53.
+    Found 3-bit adder carry out for signal <ESPACIOS_S$addsub0004> created at line 53.
+    Found 1-bit adder carry out for signal <ESPACIOS_S$addsub0005> created at line 53.
+    Found 2-bit adder carry out for signal <ESPACIOS_S$addsub0006> created at line 53.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+Unit <COLECTO> synthesized.
+
+
+Synthesizing Unit <PROCESADOR_LCD4BITS_REVB>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/PROCESADOR_LCD4BITS_REVB.vhd".
+WARNING:Xst:646 - Signal <VEC_POS<11:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DATA_CHAR<11:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_2> for signal <CONTA_CHAR>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 16                                             |
+    | Inputs             | 1                                              |
+    | Outputs            | 7                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Clock enable       | CONTA_CHAR$cmp_eq0000     (positive)           |
+    | Power Up State     | 0001                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Using one-hot encoding for signal <ESTADO>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <ESTADO> of Case statement line 96 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <ESTADO> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <ESTADO_PRESENTE>.
+    Found 1-bit register for signal <ENA>.
+    Found 8-bit register for signal <BD_LCD>.
+    Found 1-bit register for signal <RS>.
+    Found 4-bit register for signal <DATA>.
+    Found 2-bit register for signal <CONF_CURSOR>.
+    Found 19-bit register for signal <CONTA_DELAY>.
+    Found 19-bit adder for signal <CONTA_DELAY$addsub0000>.
+    Found 12-bit register for signal <DATA_CHAR>.
+    Found 12-bit subtractor for signal <DATA_CHAR$addsub0000>.
+    Found 12-bit comparator greater for signal <DATA_CHAR$cmp_gt0000> created at line 110.
+    Found 12-bit comparator greater for signal <DATA_CHAR$cmp_gt0001> created at line 103.
+    Found 12-bit comparator lessequal for signal <DATA_CHAR$cmp_le0000> created at line 105.
+    Found 12-bit comparator less for signal <DATA_CHAR$cmp_lt0000> created at line 110.
+    Found 12-bit comparator less for signal <DATA_CHAR$cmp_lt0001> created at line 103.
+    Found 11-bit register for signal <DIR_BI>.
+    Found 19-bit comparator lessequal for signal <ENA$cmp_le0000> created at line 512.
+    Found 19-bit comparator less for signal <ENA$cmp_lt0000> created at line 165.
+    Found 20-bit register for signal <ESTADO>.
+    Found 12-bit comparator greatequal for signal <ESTADO$cmp_ge0000> created at line 103.
+    Found 12-bit comparator greatequal for signal <ESTADO$cmp_ge0001> created at line 110.
+    Found 12-bit comparator greatequal for signal <ESTADO$cmp_ge0002> created at line 115.
+    Found 12-bit comparator greatequal for signal <ESTADO$cmp_ge0003> created at line 136.
+    Found 12-bit comparator greatequal for signal <ESTADO$cmp_ge0004> created at line 139.
+    Found 12-bit comparator lessequal for signal <ESTADO$cmp_le0000> created at line 103.
+    Found 12-bit comparator lessequal for signal <ESTADO$cmp_le0001> created at line 110.
+    Found 12-bit comparator lessequal for signal <ESTADO$cmp_le0002> created at line 115.
+    Found 12-bit comparator lessequal for signal <ESTADO$cmp_le0003> created at line 136.
+    Found 12-bit comparator lessequal for signal <ESTADO$cmp_le0004> created at line 139.
+    Found 20-bit register for signal <ESTADO_FUTURO>.
+    Found 11-bit register for signal <ESTADO_PRESENTE>.
+    Found 11-bit register for signal <INC_DIR_S>.
+    Found 11-bit adder for signal <INC_DIR_S$share0000> created at line 96.
+    Found 1-bit register for signal <MANDAR_BAJO>.
+    Found 40-bit register for signal <VEC_C_CHAR>.
+    Found 8-bit register for signal <VEC_L_RAM>.
+    Found 12-bit register for signal <VEC_POS>.
+    Found 12-bit comparator greater for signal <VEC_POS$cmp_gt0000> created at line 119.
+    Found 12-bit comparator greater for signal <VEC_POS$cmp_gt0001> created at line 115.
+    Found 12-bit comparator lessequal for signal <VEC_POS$cmp_le0000> created at line 119.
+    Found 12-bit comparator less for signal <VEC_POS$cmp_lt0000> created at line 120.
+    Found 12-bit comparator less for signal <VEC_POS$cmp_lt0001> created at line 115.
+    Found 12-bit subtractor for signal <VEC_POS$mux0000>.
+    Found 8-bit register for signal <VEC_RAM>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 189 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  22 Comparator(s).
+Unit <PROCESADOR_LCD4BITS_REVB> synthesized.
+
+
+Synthesizing Unit <CARACTERES_ESPECIALES_LCD4BITS_REVB>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd".
+WARNING:Xst:647 - Input <CLK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <CARACTERES_ESPECIALES_LCD4BITS_REVB> synthesized.
+
+
+Synthesizing Unit <SUMA_COLECTORES>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/SUMA_COLECTORES.vhd".
+WARNING:Xst:646 - Signal <SUMA_COLECTORES_S<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit adder carry out for signal <SUMA_COLECTORES_S$addsub0000> created at line 49.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <SUMA_COLECTORES> synthesized.
+
+
+Synthesizing Unit <LIB_LCD4BITS_INTESC_REVB>.
+    Related source file is "C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.vhd".
+WARNING:Xst:646 - Signal <RX_IN_S_PRINCIPAL> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <INSTRUCCION<21:60>> is used but never assigned. Tied to default value.
+WARNING:Xst:646 - Signal <DOUT_S_PRINCIPAL> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DIR<10:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <DATO_PRINCIPAL<7:4>> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:653 - Signal <DATAIN_S<7:4>> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+WARNING:Xst:646 - Signal <BLCD> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16x12-bit ROM for signal <INSTRUCCION_14$mux0001>.
+    Found 16x12-bit ROM for signal <INSTRUCCION_15$mux0001>.
+    Found 16x12-bit ROM for signal <INSTRUCCION_17$mux0001>.
+    Found 16x12-bit ROM for signal <INSTRUCCION_18$mux0001>.
+    Found 4-bit register for signal <DATAIN_S<3:0>>.
+    Found 8-bit register for signal <DATAIN_S_PRINCIPAL>.
+    Found 8-bit register for signal <DATO>.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S1_29$cmp_ge0000> created at line 60.
+    Found 32-bit subtractor for signal <RESIDUO_S1_31$sub0003> created at line 61.
+    Found 32-bit subtractor for signal <RESIDUO_S_31$sub0003> created at line 61.
+    Found 32-bit subtractor for signal <RESIDUO_S_31$sub0004> created at line 61.
+    Found 32-bit subtractor for signal <RESIDUO_S_31$sub0005> created at line 61.
+    Found 32-bit subtractor for signal <RESIDUO_S_31$sub0006> created at line 61.
+    Found 32-bit subtractor for signal <RESIDUO_S_31$sub0007> created at line 61.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S_4$cmp_ge0000> created at line 60.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S_4$cmp_ge0001> created at line 60.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S_4$cmp_ge0002> created at line 60.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S_4$cmp_ge0003> created at line 60.
+    Found 32-bit comparator greatequal for signal <RESIDUO_S_4$cmp_ge0004> created at line 60.
+    Found 1-bit register for signal <TX_INI_S>.
+    Found 1-bit register for signal <TX_INI_S_PRINCIPAL>.
+    Found 12-bit 61-to-1 multiplexer for signal <VECTOR_MEM_S>.
+    Summary:
+	inferred   4 ROM(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred   6 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <LIB_LCD4BITS_INTESC_REVB> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x12-bit ROM                                         : 4
+# Adders/Subtractors                                   : 18
+ 1-bit adder carry out                                 : 1
+ 11-bit adder                                          : 1
+ 12-bit subtractor                                     : 2
+ 19-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 2-bit adder carry out                                 : 1
+ 3-bit adder                                           : 1
+ 3-bit adder carry out                                 : 1
+ 32-bit subtractor                                     : 6
+ 4-bit adder                                           : 2
+ 4-bit adder carry out                                 : 1
+# Counters                                             : 6
+ 12-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 65
+ 1-bit register                                        : 39
+ 11-bit register                                       : 3
+ 12-bit register                                       : 2
+ 19-bit register                                       : 1
+ 2-bit register                                        : 1
+ 20-bit register                                       : 2
+ 4-bit register                                        : 3
+ 40-bit register                                       : 1
+ 5-bit register                                        : 2
+ 8-bit register                                        : 11
+# Comparators                                          : 42
+ 12-bit comparator greatequal                          : 7
+ 12-bit comparator greater                             : 4
+ 12-bit comparator less                                : 6
+ 12-bit comparator lessequal                           : 7
+ 13-bit comparator greatequal                          : 2
+ 13-bit comparator less                                : 2
+ 19-bit comparator less                                : 1
+ 19-bit comparator lessequal                           : 1
+ 32-bit comparator greatequal                          : 6
+ 4-bit comparator greatequal                           : 2
+ 4-bit comparator less                                 : 4
+# Multiplexers                                         : 1
+ 12-bit 61-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <Inst_PROCESADOR_LCD4BITS_REVB/CONTA_CHAR/FSM> on signal <CONTA_CHAR[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0001  | 000
+ 0010  | 001
+ 0011  | 010
+ 0100  | 011
+ 0101  | 100
+ 0110  | 101
+ 0111  | 110
+ 1000  | 111
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <Inst_RS232/paralelo_paso/FSM> on signal <paralelo_paso[1:7]> with one-hot encoding.
+Optimizing FSM <Inst_RS232_DTE/paralelo_paso/FSM> on signal <paralelo_paso[1:7]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 0000001
+ 001   | 0000010
+ 010   | 0000100
+ 011   | 0100000
+ 100   | 0010000
+ 101   | 0001000
+ 110   | 1000000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_RS232/tx_maquina/FSM> on signal <tx_maquina[1:6]> with one-hot encoding.
+Optimizing FSM <Inst_RS232_DTE/tx_maquina/FSM> on signal <tx_maquina[1:6]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000001
+ 001   | 000010
+ 010   | 000100
+ 011   | 001000
+ 100   | 010000
+ 101   | 100000
+-------------------
+WARNING:Xst:1290 - Hierarchical block <Inst_CARACTERES_ESPECIALES_LCD4BITS_REVB> is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_7> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_2> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_1> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_0> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_19> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_18> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_12> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_10> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_9> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ESTADO_FUTURO_1> has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_L_RAM_7> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_L_RAM_6> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_L_RAM_5> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_L_RAM_4> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_L_RAM_3> (without init value) has a constant value of 0 in block <Inst_PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_data2_7> (without init value) has a constant value of 1 in block <Inst_RS232_DTE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_data2_7> (without init value) has a constant value of 1 in block <Inst_RS232>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATAIN_S_PRINCIPAL_4> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATAIN_S_PRINCIPAL_5> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATAIN_S_PRINCIPAL_6> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATAIN_S_PRINCIPAL_7> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <rx_vector2_4> of sequential type is unconnected in block <Inst_RS232>.
+WARNING:Xst:2677 - Node <DATA_CHAR_8> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_9> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_10> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_11> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_8> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_9> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_10> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_11> of sequential type is unconnected in block <Inst_PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2404 -  FFs/Latches <DATAIN_S_PRINCIPAL<7:4>> (without init value) have a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <rx_vector2_4> of sequential type is unconnected in block <RS232>.
+WARNING:Xst:2677 - Node <DATA_CHAR_8> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_9> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_10> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <DATA_CHAR_11> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <ESTADO_PRESENTE_0> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <ESTADO_PRESENTE_2> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_8> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_9> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_10> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+WARNING:Xst:2677 - Node <VEC_POS_11> of sequential type is unconnected in block <PROCESADOR_LCD4BITS_REVB>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# ROMs                                                 : 4
+ 16x12-bit ROM                                         : 4
+# Adders/Subtractors                                   : 18
+ 1-bit adder carry out                                 : 1
+ 11-bit adder                                          : 1
+ 12-bit subtractor                                     : 2
+ 19-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 2-bit adder carry out                                 : 1
+ 3-bit adder                                           : 1
+ 3-bit adder carry out                                 : 1
+ 31-bit subtractor                                     : 4
+ 32-bit subtractor                                     : 2
+ 4-bit adder                                           : 2
+ 4-bit adder carry out                                 : 1
+# Counters                                             : 6
+ 12-bit up counter                                     : 2
+ 13-bit up counter                                     : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 291
+ Flip-Flops                                            : 291
+# Comparators                                          : 42
+ 12-bit comparator greatequal                          : 7
+ 12-bit comparator greater                             : 4
+ 12-bit comparator less                                : 6
+ 12-bit comparator lessequal                           : 7
+ 13-bit comparator greatequal                          : 2
+ 13-bit comparator less                                : 2
+ 19-bit comparator less                                : 1
+ 19-bit comparator lessequal                           : 1
+ 32-bit comparator greatequal                          : 6
+ 4-bit comparator greatequal                           : 2
+ 4-bit comparator less                                 : 4
+# Multiplexers                                         : 1
+ 12-bit 61-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <tx_data2_7> (without init value) has a constant value of 1 in block <RS232>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_7> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_RAM_2> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_RAM_1> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_RAM_0> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_19> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_18> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_12> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_10> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_9> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_FUTURO_1> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ESTADO_PRESENTE_1> has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_L_RAM_7> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_L_RAM_6> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_L_RAM_5> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_L_RAM_4> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VEC_L_RAM_3> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <BD_LCD_7> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <BD_LCD_6> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <BD_LCD_5> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <BD_LCD_4> (without init value) has a constant value of 0 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <LIB_LCD4BITS_INTESC_REVB> ...
+WARNING:Xst:1710 - FF/Latch <DATAIN_S_3> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATAIN_S_3> (without init value) has a constant value of 0 in block <LIB_LCD4BITS_INTESC_REVB>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <RS232> ...
+
+Optimizing unit <PROCESADOR_LCD4BITS_REVB> ...
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_6> (without init value) has a constant value of 1 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <VEC_RAM_6> (without init value) has a constant value of 1 in block <PROCESADOR_LCD4BITS_REVB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd5> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd4> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/paralelo_paso_FSM_FFd1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_11> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_10> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_9> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_8> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_5> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_4> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_baud_0> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/n_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/n_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/n_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/n_0> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_5> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_4> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/DOUT_0> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_5> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_4> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_ini> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/clk_flanco> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/RX_IN> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/rx_vector2_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/rx_vector2_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/rx_vector2_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/rx_vector2_0> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_8> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_RS232_DTE/dout_paralelo_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_10> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_9> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_8> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_10> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_9> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_8> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_10> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_9> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_8> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_7> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_6> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_5> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_4> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_3> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_2> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_1> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+WARNING:Xst:2677 - Node <Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_0> of sequential type is unconnected in block <LIB_LCD4BITS_INTESC_REVB>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LIB_LCD4BITS_INTESC_REVB, actual ratio is 10.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 286
+ Flip-Flops                                            : 286
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LIB_LCD4BITS_INTESC_REVB.ngr
+Top Level Output File Name         : LIB_LCD4BITS_INTESC_REVB
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 1520
+#      GND                         : 1
+#      INV                         : 22
+#      LUT1                        : 88
+#      LUT2                        : 135
+#      LUT2_D                      : 7
+#      LUT2_L                      : 9
+#      LUT3                        : 253
+#      LUT3_D                      : 24
+#      LUT3_L                      : 9
+#      LUT4                        : 379
+#      LUT4_D                      : 30
+#      LUT4_L                      : 20
+#      MUXCY                       : 306
+#      MUXF5                       : 39
+#      VCC                         : 1
+#      XORCY                       : 197
+# FlipFlops/Latches                : 286
+#      FD                          : 86
+#      FDE                         : 65
+#      FDR                         : 45
+#      FDRE                        : 4
+#      FDRS                        : 2
+#      FDS                         : 75
+#      FDSE                        : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 7
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      532  out of   4656    11%  
+ Number of Slice Flip Flops:            286  out of   9312     3%  
+ Number of 4 input LUTs:                976  out of   9312    10%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  17  out of    232     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 286   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 31.242ns (Maximum Frequency: 32.008MHz)
+   Minimum input arrival time before clock: 21.291ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 31.242ns (frequency: 32.008MHz)
+  Total number of paths / destination ports: 20850110366 / 475
+-------------------------------------------------------------------------
+Delay:               31.242ns (Levels of Logic = 48)
+  Source:            DATO_7 (FF)
+  Destination:       Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_12 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: DATO_7 to Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.591   1.057  DATO_7 (DATO_7)
+     LUT3:I0->O            1   0.704   0.000  Msub_RESIDUO_S_31_sub0004_Madd_lut<2> (Msub_RESIDUO_S_31_sub0004_Madd_lut<2>)
+     MUXCY:S->O            1   0.464   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<2> (Msub_RESIDUO_S_31_sub0004_Madd_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<3> (Msub_RESIDUO_S_31_sub0004_Madd_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<4> (Msub_RESIDUO_S_31_sub0004_Madd_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<5> (Msub_RESIDUO_S_31_sub0004_Madd_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<6> (Msub_RESIDUO_S_31_sub0004_Madd_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<7> (Msub_RESIDUO_S_31_sub0004_Madd_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<8> (Msub_RESIDUO_S_31_sub0004_Madd_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<9> (Msub_RESIDUO_S_31_sub0004_Madd_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<10> (Msub_RESIDUO_S_31_sub0004_Madd_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<11> (Msub_RESIDUO_S_31_sub0004_Madd_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<12> (Msub_RESIDUO_S_31_sub0004_Madd_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<13> (Msub_RESIDUO_S_31_sub0004_Madd_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<14> (Msub_RESIDUO_S_31_sub0004_Madd_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<15> (Msub_RESIDUO_S_31_sub0004_Madd_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<16> (Msub_RESIDUO_S_31_sub0004_Madd_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<17> (Msub_RESIDUO_S_31_sub0004_Madd_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<18> (Msub_RESIDUO_S_31_sub0004_Madd_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Msub_RESIDUO_S_31_sub0004_Madd_cy<19> (Msub_RESIDUO_S_31_sub0004_Madd_cy<19>)
+     XORCY:CI->O           4   0.804   0.666  Msub_RESIDUO_S_31_sub0004_Madd_xor<20> (RESIDUO_S_31_sub0004<20>)
+     LUT2:I1->O            1   0.704   0.424  Mcompar_RESIDUO_S_4_cmp_ge0002_lut<7>_SW0 (N190)
+     LUT4:I3->O            1   0.704   0.000  Mcompar_RESIDUO_S_4_cmp_ge0002_lut<7> (Mcompar_RESIDUO_S_4_cmp_ge0002_lut<7>)
+     MUXCY:S->O            1   0.864   0.455  Mcompar_RESIDUO_S_4_cmp_ge0002_cy<7> (Mcompar_RESIDUO_S_4_cmp_ge0002_cy<7>)
+     LUT3_D:I2->O         68   0.704   1.309  Mcompar_RESIDUO_S_4_cmp_ge0002_cy<9>1 (RESIDUO_S_4_cmp_ge0002)
+     LUT3:I2->O            3   0.704   0.566  RESIDUO_S_25_mux00051 (RESIDUO_S_25_mux0005)
+     LUT4:I2->O            1   0.704   0.455  Mcompar_RESIDUO_S_4_cmp_ge0003_lut<8> (Mcompar_RESIDUO_S_4_cmp_ge0003_lut<8>)
+     LUT3:I2->O           70   0.704   1.309  Mcompar_RESIDUO_S_4_cmp_ge0003_cy<9>1 (RESIDUO_S_4_cmp_ge0003)
+     LUT3:I2->O            2   0.704   0.622  RESIDUO_S_3_mux00061 (RESIDUO_S_3_mux0006)
+     LUT4:I0->O            1   0.704   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_lut<3> (Mcompar_RESIDUO_S_4_cmp_ge0004_lut<3>)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<3> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<4> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<5> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<6> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<7> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<8> (Mcompar_RESIDUO_S_4_cmp_ge0004_cy<8>)
+     MUXCY:CI->O          12   0.459   0.965  Mcompar_RESIDUO_S_4_cmp_ge0004_cy<9> (RESIDUO_S_4_cmp_ge0004)
+     LUT4:I3->O            4   0.704   0.591  INSTRUCCION_15_and0000432 (INSTRUCCION_15_and0000432)
+     LUT4:I3->O            1   0.704   0.000  INSTRUCCION_15_and0000447_SW1_F (N430)
+     MUXF5:I0->O           1   0.321   0.424  INSTRUCCION_15_and0000447_SW1 (N267)
+     LUT4:I3->O            6   0.704   0.673  Mmux_VECTOR_MEM_S1661 (Mmux_VECTOR_MEM_S1661)
+     LUT4:I3->O           27   0.704   1.265  Mmux_VECTOR_MEM_S16138 (VECTOR_MEM_S<1>)
+     LUT4:I3->O            1   0.704   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_lut<0> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<0>_0 (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<0>1)
+     MUXCY:CI->O           1   0.059   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<1>_0 (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<1>1)
+     MUXCY:CI->O           1   0.059   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<2>_0 (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<2>1)
+     MUXCY:CI->O          20   0.459   1.102  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<3>_0 (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<3>1)
+     MUXF5:S->O            1   0.739   0.424  Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<13>111_SW3 (N357)
+     LUT4:I3->O            1   0.704   0.420  Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<7>_SW0 (N114)
+     FDS:S                     0.911          Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_12
+    ----------------------------------------
+    Total                     31.242ns (18.516ns logic, 12.726ns route)
+                                       (59.3% logic, 40.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 74046 / 156
+-------------------------------------------------------------------------
+Offset:              21.291ns (Levels of Logic = 19)
+  Source:            VIN<0> (PAD)
+  Destination:       Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_9 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: VIN<0> to Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  VIN_0_IBUF (VIN_0_IBUF)
+     LUT4:I0->O            5   0.704   0.712  Inst_COLECTO/Madd_ESPACIOS_S_addsub0006_lut<0>1 (Inst_COLECTO/Madd_ESPACIOS_S_addsub0006_lut<0>)
+     LUT4:I1->O            3   0.704   0.706  Inst_COLECTO/Madd_ESPACIOS_S_addsub0006_xor<1>11 (Inst_COLECTO/Madd_ESPACIOS_S_addsub0004_lut<1>)
+     LUT4:I0->O            4   0.704   0.762  ESPACIOS_S<2>1 (ESPACIOS_S<2>)
+     LUT4:I0->O            1   0.704   0.595  Mmux_VECTOR_MEM_S2258 (Mmux_VECTOR_MEM_S2258)
+     LUT4:I0->O            1   0.704   0.499  Mmux_VECTOR_MEM_S22112_SW0 (N460)
+     LUT4:I1->O            2   0.704   0.622  Mmux_VECTOR_MEM_S22112 (Mmux_VECTOR_MEM_S22112)
+     LUT4:I0->O            3   0.704   0.706  Mmux_VECTOR_MEM_S2225_SW0 (N129)
+     LUT3:I0->O            1   0.704   0.000  INSTRUCCION_15_and0000447_SW5_G (N459)
+     MUXF5:I1->O           3   0.321   0.535  INSTRUCCION_15_and0000447_SW5 (N369)
+     LUT4:I3->O           23   0.704   1.206  Mmux_VECTOR_MEM_S22129 (VECTOR_MEM_S<2>)
+     LUT4:I3->O            1   0.704   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_lut<1> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<1> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<2> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<3> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<3>)
+     MUXCY:CI->O          16   0.459   1.113  Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<4> (Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_VEC_POS_cmp_lt0001_cy<4>)
+     LUT3_D:I1->O         16   0.704   1.069  Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<12>25 (Inst_PROCESADOR_LCD4BITS_REVB/N83)
+     LUT4_L:I2->LO         1   0.704   0.104  Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<10>1_SW0 (N118)
+     LUT4:I3->O            1   0.704   0.000  Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<10>1 (Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<10>1)
+     FDS:D                     0.308          Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_9
+    ----------------------------------------
+    Total                     21.291ns (12.040ns logic, 9.251ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            Inst_RS232_DTE/TX (FF)
+  Destination:       TX_PRINCIPAL (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Inst_RS232_DTE/TX to TX_PRINCIPAL
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              3   0.591   0.531  Inst_RS232_DTE/TX (Inst_RS232_DTE/TX)
+     OBUF:I->O                 3.272          TX_PRINCIPAL_OBUF (TX_PRINCIPAL)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.36 secs
+ 
+--> 
+
+Total memory usage is 291312 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  151 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/Colector/RS232.xst" -ofn "C:/Users/Cristian/Documents/ISE/Colector/RS232.syr" 
+vhdtdtfi -prj Colector -o C:/Users/Cristian/Documents/ISE/Colector/RS232.vhi -module RS232 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RS232.vhd 

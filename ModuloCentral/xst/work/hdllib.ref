@@ -1,0 +1,16 @@
+PH comandos_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/COMANDOS_LCD4BITS_REVB.vhd sub00/vhpl00 1527139145
+AR procesador_lcd4bits_revb behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/PROCESADOR_LCD4BITS_REVB.vhd sub00/vhpl09 1527139154
+PB op_division op_division C:/Users/Cristian/Documents/ISE/ModuloCentral/OP_DIVISION.vhd sub00/vhpl03 1527139148
+EN procesador_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/PROCESADOR_LCD4BITS_REVB.vhd sub00/vhpl08 1527139153
+PB comandos_lcd4bits_revb comandos_lcd4bits_revb C:/Users/Cristian/Documents/ISE/ModuloCentral/COMANDOS_LCD4BITS_REVB.vhd sub00/vhpl01 1527139146
+EN caracteres_especiales_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd sub00/vhpl10 1527139155
+EN lib_lcd4bits_intesc_revb NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.vhd sub00/vhpl12 1527139159
+AR rs232 behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/RS232.vhd sub00/vhpl05 1527139150
+EN suma_colectores NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/SUMA_COLECTORES.vhd sub00/vhpl14 1527139157
+AR suma_colectores behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/SUMA_COLECTORES.vhd sub00/vhpl15 1527139158
+PH op_division NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/OP_DIVISION.vhd sub00/vhpl02 1527139147
+EN rs232 NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/RS232.vhd sub00/vhpl04 1527139149
+EN colecto NULL C:/Users/Cristian/Documents/ISE/ModuloCentral/COLECTO.vhd sub00/vhpl06 1527139151
+AR colecto behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/COLECTO.vhd sub00/vhpl07 1527139152
+AR lib_lcd4bits_intesc_revb behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/LIB_LCD4BITS_INTESC_REVB.vhd sub00/vhpl13 1527139160
+AR caracteres_especiales_lcd4bits_revb behavioral C:/Users/Cristian/Documents/ISE/ModuloCentral/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd sub00/vhpl11 1527139156

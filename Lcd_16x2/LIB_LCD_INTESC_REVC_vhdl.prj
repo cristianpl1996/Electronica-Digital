@@ -1,0 +1,4 @@
+vhdl work "C:\Users\Cristian\Documents\ISE\Lcd_16x2\PROCESADOR_LCD_REVC.vhd"
+vhdl work "C:\Users\Cristian\Documents\ISE\Lcd_16x2\COMANDOS_LCD_REVC.vhd"
+vhdl work "C:\Users\Cristian\Documents\ISE\Lcd_16x2\CARACTERES_ESPECIALES_REVC.vhd"
+vhdl work "C:\Users\Cristian\Documents\ISE\Lcd_16x2\LIB_LCD_INTESC_REVC.vhd"

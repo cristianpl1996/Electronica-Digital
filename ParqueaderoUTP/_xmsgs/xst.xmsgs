@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">INSTRUCCION</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">RW</arg>&gt; in unit &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">rx_vector2&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">dout_paralelo&lt;9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">dout_paralelo&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ESPACIOS_S&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">VEC_POS&lt;11:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">DATA_CHAR&lt;11:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="old" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">ESTADO</arg>&gt; of Case statement line <arg fmt="%s" index="2">96</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">ESTADO</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">SUMA_COLECTORES_S&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">RX_IN_S_PRINCIPAL</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">INSTRUCCION&lt;21:60&gt;</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">DOUT_S_PRINCIPAL</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">DIR&lt;10:6&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">DATO_PRINCIPAL&lt;7:4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">DATAIN_S&lt;7:4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">BLCD</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Inst_CARACTERES_ESPECIALES_LCD4BITS_REVB</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_data2_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Inst_RS232_DTE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_data2_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Inst_RS232</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_PRINCIPAL_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_PRINCIPAL_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_PRINCIPAL_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_PRINCIPAL_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rx_vector2_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_RS232</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">DATAIN_S_PRINCIPAL</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">4</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rx_vector2_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RS232</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_CHAR_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ESTADO_PRESENTE_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ESTADO_PRESENTE_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">VEC_POS_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PROCESADOR_LCD4BITS_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">tx_data2_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">RS232</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_FUTURO_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ESTADO_PRESENTE_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VEC_L_RAM_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">BD_LCD_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">BD_LCD_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">BD_LCD_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">BD_LCD_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">DATAIN_S_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LIB_LCD4BITS_INTESC_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">VEC_RAM_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">PROCESADOR_LCD4BITS_REVB</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/paralelo_paso_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_baud_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/n_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/n_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/n_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/n_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/DOUT_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_ini</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/clk_flanco</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/RX_IN</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/rx_vector2_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/rx_vector2_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/rx_vector2_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/rx_vector2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_RS232_DTE/dout_paralelo_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/DIR_BI_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/INC_DIR_S_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_PRESENTE_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_PROCESADOR_LCD4BITS_REVB/BD_LCD_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">LIB_LCD4BITS_INTESC_REVB</arg>&gt;.
+</msg>
+
+</messages>
+

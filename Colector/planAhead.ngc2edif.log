@@ -1,0 +1,34 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LIB_LCD_INTESC_REVC.ngc ...
+WARNING:NetListWriters:298 - No output is written to LIB_LCD_INTESC_REVC.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   Inst_COLECTO/Madd_ESPACIOS_S_addsub0005_lut<2 : 0> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/BD_LCD_mux0000<2 : 0> on block LIB_LCD_INTESC_REVC
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/Mcompar_ENA_cmp_le0000_lut<9 : 0> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/Mcompar_ENA_cmp_lt0000_lut<6 : 1> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/VEC_C_CHAR_mux0000<18 : 13> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus VECTOR_MEM_S<8 : 0> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file LIB_LCD_INTESC_REVC.edif ...
+ngc2edif: Total memory usage is 80260 kilobytes
+

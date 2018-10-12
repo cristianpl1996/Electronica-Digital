@@ -1,0 +1,4 @@
+vhdl work "PROCESADOR_LCD_REVC.vhd"
+vhdl work "COMANDOS_LCD_REVC.vhd"
+vhdl work "CARACTERES_ESPECIALES_REVC.vhd"
+vhdl work "LIB_LCD_INTESC_REVC.vhd"

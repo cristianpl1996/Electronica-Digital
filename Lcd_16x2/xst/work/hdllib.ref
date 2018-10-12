@@ -1,0 +1,8 @@
+AR caracteres_especiales_revc behavioral C:/Users/Cristian/Documents/ISE/Lcd_16x2/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl05 1520695172
+EN procesador_lcd_revc NULL C:/Users/Cristian/Documents/ISE/Lcd_16x2/PROCESADOR_LCD_REVC.vhd sub00/vhpl02 1520695169
+EN lib_lcd_intesc_revc NULL C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.vhd sub00/vhpl06 1520695173
+AR lib_lcd_intesc_revc behavioral C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.vhd sub00/vhpl07 1520695174
+PH comandos_lcd_revc NULL C:/Users/Cristian/Documents/ISE/Lcd_16x2/COMANDOS_LCD_REVC.vhd sub00/vhpl00 1520695167
+EN caracteres_especiales_revc NULL C:/Users/Cristian/Documents/ISE/Lcd_16x2/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl04 1520695171
+AR procesador_lcd_revc behavioral C:/Users/Cristian/Documents/ISE/Lcd_16x2/PROCESADOR_LCD_REVC.vhd sub00/vhpl03 1520695170
+PB comandos_lcd_revc comandos_lcd_revc C:/Users/Cristian/Documents/ISE/Lcd_16x2/COMANDOS_LCD_REVC.vhd sub00/vhpl01 1520695168

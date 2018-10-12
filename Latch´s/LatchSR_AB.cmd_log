@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/LatchSR_AB.xst" -ofn "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/LatchSR_AB.syr" 

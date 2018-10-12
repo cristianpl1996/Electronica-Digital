@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Cristian\Documents\ISE\Sensor\Sensor.ncd
+OUTFILE=C:\Users\Cristian\Documents\ISE\Sensor\Sensor.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Cristian\Documents\ISE\Sensor
+LICENSE=WebPack
+USER_INFO=211402708_0_0_474

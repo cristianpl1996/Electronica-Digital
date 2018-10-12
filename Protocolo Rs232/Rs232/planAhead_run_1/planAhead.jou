@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Apr 29 09:31:20 2018
+# Process ID: 2356
+# Log file: C:/Users/Cristian/Documents/ISE/Rs232/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Rs232/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Cristian/Documents/ISE/Rs232/pa.fromNetlist.tcl
+startgroup
+set_property package_pin B8 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  ENA]]
+startgroup
+set_property package_pin T17 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports RS]
+endgroup
+set_property package_pin "" [get_ports [list  RW]]
+set_property package_pin "" [get_ports [list  RS]]
+set_property package_pin "" [get_ports [list  ENA]]
+startgroup
+set_property package_pin R15 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {DATA_LCD[0]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {DATA_LCD[1]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {DATA_LCD[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {DATA_LCD[3]}]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports {VIN[0]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {VIN[1]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {VIN[2]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {VIN[3]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {VIN[4]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {VIN[5]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {VIN[6]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {VIN[7]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin R18 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin L17 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports {DATA_LCD[0]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {DATA_LCD[1]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {DATA_LCD[2]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {DATA_LCD[3]}]
+endgroup
+save_constraints

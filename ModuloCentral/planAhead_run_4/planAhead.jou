@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed May 16 18:21:58 2018
+# Process ID: 4180
+# Log file: C:/Users/Cristian/Documents/ISE/Modulo_Central/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Modulo_Central/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Cristian/Documents/ISE/Modulo_Central/pa.fromNetlist.tcl
+startgroup
+set_property package_pin N17 [get_ports {VIN[6]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {VIN[7]}]
+endgroup
+save_constraints -force

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Documents/ISE/LatchSR_ActivoBajo/xst"
+elaborate
+-ifn LatchSR_AA.prj
+-ifmt mixed

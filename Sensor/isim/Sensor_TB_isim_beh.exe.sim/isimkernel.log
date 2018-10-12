@@ -1,0 +1,29 @@
+Command line:
+   Sensor_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49928
+
+Wed Mar 14 09:27:24 2018
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 667.263 Meg
+
+ Total Signals          : 4
+ Total Nets             : 2
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 362
+Total Line Count : 6
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 667.263 Meg
+
+Wed Mar 14 09:27:39 2018
+

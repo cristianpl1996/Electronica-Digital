@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Documents/ISE/ModuloCentral/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Documents/ISE/ModuloCentral/xst"
+elaborate
+-ifn SUMA_COLECTORES.prj
+-ifmt mixed

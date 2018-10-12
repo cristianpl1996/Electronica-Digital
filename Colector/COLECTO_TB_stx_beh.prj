@@ -1,0 +1,2 @@
+vhdl isim_temp "COLECTO.vhd"
+vhdl isim_temp "COLECTO_TB.vhd"

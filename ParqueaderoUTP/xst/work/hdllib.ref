@@ -1,0 +1,16 @@
+PH comandos_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/COMANDOS_LCD4BITS_REVB.vhd sub00/vhpl00 1528051991
+AR procesador_lcd4bits_revb behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/PROCESADOR_LCD4BITS_REVB.vhd sub00/vhpl09 1528052000
+PB op_division op_division C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/OP_DIVISION.vhd sub00/vhpl03 1528051994
+EN procesador_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/PROCESADOR_LCD4BITS_REVB.vhd sub00/vhpl08 1528051999
+PB comandos_lcd4bits_revb comandos_lcd4bits_revb C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/COMANDOS_LCD4BITS_REVB.vhd sub00/vhpl01 1528051992
+EN caracteres_especiales_lcd4bits_revb NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd sub00/vhpl10 1528052001
+EN lib_lcd4bits_intesc_revb NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/LIB_LCD4BITS_INTESC_REVB.vhd sub00/vhpl14 1528052005
+AR rs232 behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/RS232.vhd sub00/vhpl05 1528051996
+EN suma_colectores NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/SUMA_COLECTORES.vhd sub00/vhpl12 1528052003
+AR suma_colectores behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/SUMA_COLECTORES.vhd sub00/vhpl13 1528052004
+PH op_division NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/OP_DIVISION.vhd sub00/vhpl02 1528051993
+EN rs232 NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/RS232.vhd sub00/vhpl04 1528051995
+EN colecto NULL C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/COLECTO.vhd sub00/vhpl06 1528051997
+AR colecto behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/COLECTO.vhd sub00/vhpl07 1528051998
+AR lib_lcd4bits_intesc_revb behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/LIB_LCD4BITS_INTESC_REVB.vhd sub00/vhpl15 1528052006
+AR caracteres_especiales_lcd4bits_revb behavioral C:/Users/Cristian/Documents/ISE/ParqueaderoUTP/CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd sub00/vhpl11 1528052002

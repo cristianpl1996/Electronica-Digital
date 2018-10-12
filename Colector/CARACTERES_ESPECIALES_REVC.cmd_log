@@ -1,0 +1,2 @@
+vhdtdtfi -prj Colector -o C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhi -module CARACTERES_ESPECIALES_REVC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CARACTERES_ESPECIALES_REVC.vhd 
+vhdtdtfi -prj Colector -o C:/Users/Cristian/Documents/ISE/Colector/CARACTERES_ESPECIALES_REVC.vhi -module CARACTERES_ESPECIALES_REVC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CARACTERES_ESPECIALES_REVC.vhd 

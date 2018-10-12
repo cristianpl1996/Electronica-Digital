@@ -1,0 +1,75 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Cristian/Documents/ISE/Lcd_16x2/pa.fromNetlist.tcl
+# create_project -name Lcd_16x2 -dir "C:/Users/Cristian/Documents/ISE/Lcd_16x2/planAhead_run_2" -part xc3s500efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Cristian/Documents/ISE/Lcd_16x2} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "LIB_LCD_INTESC_REVC.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.ucf' to fileset 'constrs_1'
+# add_files [list {LIB_LCD_INTESC_REVC.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LIB_LCD_INTESC_REVC.ngc ...
+WARNING:NetListWriters:298 - No output is written to LIB_LCD_INTESC_REVC.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/BD_LCD_mux0000<2 : 0> on block LIB_LCD_INTESC_REVC
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/Mcompar_ENA_cmp_le0000_lut<9 : 0> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/Mcompar_ENA_cmp_lt0000_lut<6 : 1> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD_REVC/VEC_C_CHAR_mux0000<18 : 13> on block
+   LIB_LCD_INTESC_REVC is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file LIB_LCD_INTESC_REVC.edif ...
+ngc2edif: Total memory usage is 79244 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/Lcd_16x2.data/cache/LIB_LCD_INTESC_REVC_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/Lcd_16x2.data/cache/LIB_LCD_INTESC_REVC_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.ucf]
+Finished Parsing UCF File [C:/Users/Cristian/Documents/ISE/Lcd_16x2/LIB_LCD_INTESC_REVC.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4cc10104
+link_design: Time (s): elapsed = 00:00:17 . Memory (MB): peak = 505.801 ; gain = 97.789
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Mar 10 10:24:31 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Verilog -o C:/Users/Cristian/Documents/ISE/Verilog/OR.tfi -lib work C:/Users/Cristian/Documents/ISE/Verilog//OR.v -module OR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

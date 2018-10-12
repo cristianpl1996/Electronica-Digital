@@ -1,0 +1,27 @@
+
+
+NET "CLK" LOC = B8;
+NET "VIN[0]" LOC = G18;
+NET "VIN[1]" LOC = H18;
+NET "VIN[2]" LOC = K18;
+NET "VIN[3]" LOC = K17;
+NET "VIN[4]" LOC = L14;
+NET "VIN[5]" LOC = L13;
+NET "RS" LOC = L17;
+NET "RW" LOC = K12;
+NET "ENA" LOC = L15;
+NET "DATA_LCD[0]" LOC = M16;
+NET "DATA_LCD[1]" LOC = M14;
+NET "DATA_LCD[2]" LOC = L16;
+NET "DATA_LCD[3]" LOC = K13;
+
+
+NET "RX" LOC = M13;
+NET "TX" LOC = G15;
+
+
+NET "TX_PRINCIPAL" LOC = P9;
+NET "RX_PRINCIPAL" LOC = U6;
+
+# PlanAhead Generated physical constraints 
+

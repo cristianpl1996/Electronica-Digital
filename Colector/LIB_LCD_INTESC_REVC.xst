@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Documents/ISE/Colector/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Documents/ISE/Colector/xst"
+elaborate
+-ifn LIB_LCD_INTESC_REVC.prj
+-ifmt mixed

@@ -1,0 +1,192 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Apr 29 09:31:20 2018
+# Process ID: 2356
+# Log file: C:/Users/Cristian/Documents/ISE/Rs232/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Cristian/Documents/ISE/Rs232/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Cristian/Documents/ISE/Rs232/pa.fromNetlist.tcl
+# create_project -name Rs232 -dir "C:/Users/Cristian/Documents/ISE/Rs232/planAhead_run_1" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 380.934 ; gain = 71.496
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Cristian/Documents/ISE/Rs232/LIB_LCD4BITS_INTESC_REVB.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Cristian/Documents/ISE/Rs232} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "LIB_LCD4BITS_INTESC_REVB.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Cristian/Documents/ISE/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf' to fileset 'constrs_1'
+# add_files [list {LIB_LCD4BITS_INTESC_REVB.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LIB_LCD4BITS_INTESC_REVB.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   LIB_LCD4BITS_INTESC_REVB.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   Inst_COLECTO/Madd_ESPACIOS_S_addsub0005_lut<2 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_FUTURO<17 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_FUTURO_mux0008<19 : 4> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/ESTADO_mux0000<18 : 2> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_ENA_cmp_le0000_lut<12 : 0> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Mcompar_ENA_cmp_lt0000_lut<9 : 1> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/Msub_DATA_CHAR_addsub0000_lut<6 : 1> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Inst_PROCESADOR_LCD4BITS_REVB/VEC_C_CHAR_mux0000<36 : 2> on block
+   LIB_LCD4BITS_INTESC_REVB is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file LIB_LCD4BITS_INTESC_REVB.edif ...
+ngc2edif: Total memory usage is 80708 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Rs232.data/cache/LIB_LCD4BITS_INTESC_REVB_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Rs232.data/cache/LIB_LCD4BITS_INTESC_REVB_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Cristian/Documents/ISE/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf]
+Finished Parsing UCF File [C:/Users/Cristian/Documents/ISE/Rs232/LIB_LCD4BITS_INTESC_REVB.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 85875818
+link_design: Time (s): elapsed = 00:00:19 . Memory (MB): peak = 493.133 ; gain = 109.648
+startgroup
+set_property package_pin B8 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  ENA]]
+startgroup
+set_property package_pin T17 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports RS]
+endgroup
+set_property package_pin "" [get_ports [list  RW]]
+set_property package_pin "" [get_ports [list  RS]]
+set_property package_pin "" [get_ports [list  ENA]]
+startgroup
+set_property package_pin R15 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {DATA_LCD[0]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {DATA_LCD[1]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {DATA_LCD[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {DATA_LCD[3]}]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports {VIN[0]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {VIN[1]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {VIN[2]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {VIN[3]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {VIN[4]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {VIN[5]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {VIN[6]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {VIN[7]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin R18 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin L17 [get_ports RS]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports RW]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports ENA]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports {DATA_LCD[0]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {DATA_LCD[1]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {DATA_LCD[2]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {DATA_LCD[3]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Cristian/Documents/ISE/Rs232\planAhead_pid2356.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Apr 29 09:52:22 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

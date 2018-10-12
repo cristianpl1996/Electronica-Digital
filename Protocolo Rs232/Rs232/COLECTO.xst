@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Documents/ISE/Protocolo Rs232/Rs232/xst"
+elaborate
+-ifn COLECTO.prj
+-ifmt mixed

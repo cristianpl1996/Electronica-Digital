@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cristian/Documents/ISE/Sensor/Sensor_TB_isim_beh.exe" -prj "C:/Users/Cristian/Documents/ISE/Sensor/Sensor_TB_beh.prj" "work.Sensor_TB" 

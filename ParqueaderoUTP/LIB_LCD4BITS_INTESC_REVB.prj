@@ -1,0 +1,8 @@
+vhdl work "SUMA_COLECTORES.vhd"
+vhdl work "RS232.vhd"
+vhdl work "PROCESADOR_LCD4BITS_REVB.vhd"
+vhdl work "OP_DIVISION.vhd"
+vhdl work "COMANDOS_LCD4BITS_REVB.vhd"
+vhdl work "COLECTO.vhd"
+vhdl work "CARACTERES_ESPECIALES_LCD4BITS_REVB.vhd"
+vhdl work "LIB_LCD4BITS_INTESC_REVB.vhd"
